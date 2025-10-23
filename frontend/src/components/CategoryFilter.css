@@ -1,0 +1,27 @@
+.category-filter {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.category-btn {
+  background: white;
+  border: 2px solid #ff6699;
+  color: #ff3366;
+  font-weight: 500;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.category-btn:hover {
+  background: #ff6699;
+  color: white;
+}
+
+.category-btn.active {
+  background: linear-gradient(90deg, #ff6699, #ff3366);
+  color: white;
+  box-shadow: 0 4px 12px rgba(255, 51, 102, 0.3);
+}
